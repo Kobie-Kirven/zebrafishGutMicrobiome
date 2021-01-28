@@ -1,0 +1,472 @@
+{
+	"id":null,
+	"format": "Biological Observation Matrix 0.9.1-dev",
+	"format_url": "http://biom-format.org/documentation/format_versions/biom-1.0.html",
+	"type": "OTU table",
+	"date": "2021-01-26T17:38:11",
+	"comment": "-r v4 -i normal/N2.v4 normal/N3.v4 normal/N4.v4 -o normal/normal",
+	"rows": [
+
+		{"id":"TTCATTAAGTTATAGGTGAAAGTTCGGGGCTCA", 
+		"metadata": {
+			"tag":"TTCATTAAGTTATAGGTGAAAGTTCGGGGCTCA",
+			"taxonomy":["k__Bacteria","p__Firmicutes","c__Clostridia","o__Clostridiales","f__Peptococcaceae","g__Desulfotomaculum",""], 
+			"confidence":"1", 
+			"support":"6",
+			"use":"tag",
+			"taxon-level":"g",
+			"taxon-data":"g",
+			"long":"TGGGCGTAAAGGGCGCGTAGGTGGTTCATTAAGTTATAGGTGAAAGTTCGGGGCTCAACCCCGTGATTGCCTGTAATACTGGTG",
+			"long_total":"2",
+			"long_this":"2"}
+		},
+
+		{"id":"TTGATCGCGTCGGAAGTGTAATCTTGGGGCTTA", 
+		"metadata": {
+			"tag":"TTGATCGCGTCGGAAGTGTAATCTTGGGGCTTA",
+			"taxonomy":["k__Bacteria","p__Actinobacteria","c__Actinobacteria","o__Propionibacteriales","f__Propionibacteriaceae","g__Propionibacterium",""], 
+			"confidence":"0.99994850669413", 
+			"support":"38840",
+			"use":"long",
+			"taxon-level":"g",
+			"taxon-data":"g",
+			"long":"TGGGCGTAAAGGGCTCGTAGGTGGTTGATCGCGTCGGAAGTGTAATCTTGGGGCTTAACCCTGAGCGTGCTTTCGATACGGGTT",
+			"long_total":"2",
+			"long_this":"2"}
+		},
+
+		{"id":"TCCTTTAAGTCAGATGTGAAATCCCGAGGCTCA", 
+		"metadata": {
+			"tag":"TCCTTTAAGTCAGATGTGAAATCCCGAGGCTCA",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGGGCGCGTAGGCGGTCCTTTAAGTCAGATGTGAAATCCCGAGGCTCAACTTCGGGCGTGCATTTGAAACTGGAG",
+			"long_total":"2",
+			"long_this":"2"}
+		},
+
+		{"id":"CTTTTCAAGTCCGCCGTCAAATCCCAGGGCTCA", 
+		"metadata": {
+			"tag":"CTTTTCAAGTCCGCCGTCAAATCCCAGGGCTCA",
+			"taxonomy":["k__Bacteria","p__Cyanobacteria","c__Chloroplast",""], 
+			"confidence":"0.996706915477497", 
+			"support":"911",
+			"use":"long",
+			"taxon-level":"c",
+			"taxon-data":"c",
+			"long":"TGGGCGTAAAGCGTCTGTAGGTGGCTTTTCAAGTCCGCCGTCAAATCCCAGGGCTCAACCCTGGACAGGCGGTGGAAACTACCA",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"GTATTTAAGTCCGGTGTGAAAGATCAGGGCTCA", 
+		"metadata": {
+			"tag":"GTATTTAAGTCCGGTGTGAAAGATCAGGGCTCA",
+			"taxonomy":["k__Bacteria","p__Firmicutes","c__Clostridia","o__Clostridiales","f__Peptococcaceae","g__Desulfosporosinus",""], 
+			"confidence":"1", 
+			"support":"27",
+			"use":"long",
+			"taxon-level":"g",
+			"taxon-data":"g",
+			"long":"TGGGCGTAAAGGGCGCGTAGGCGGGTATTTAAGTCCGGTGTGAAAGATCAGGGCTCAACCCTGAGAGTGCATCGGAAACTGGGT",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"ACTTTTAAGTGGGATGTGAAATTCCGAGGCTCA", 
+		"metadata": {
+			"tag":"ACTTTTAAGTGGGATGTGAAATTCCGAGGCTCA",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGGATGCGTAGGCGGACTTTTAAGTGGGATGTGAAATTCCGAGGCTCAACCTCGGCGCTGCATTCCAAACTGGAA",
+			"long_total":"2",
+			"long_this":"2"}
+		},
+
+		{"id":"GCCTTTAAGTCCGGTGTGAAAGATCAGGGCTCA", 
+		"metadata": {
+			"tag":"GCCTTTAAGTCCGGTGTGAAAGATCAGGGCTCA",
+			"taxonomy":["k__Bacteria","p__Firmicutes","c__Clostridia","o__Clostridiales","f__Peptococcaceae","g__Desulfosporosinus",""], 
+			"confidence":"1", 
+			"support":"6",
+			"use":"long",
+			"taxon-level":"g",
+			"taxon-data":"g",
+			"long":"TGGGCGTAAAGGGCGCGTAGGCGGGCCTTTAAGTCCGGTGTGAAAGATCAGGGCTCAACCCTGAGAGTGCATCGGAAACTGGAG",
+			"long_total":"2",
+			"long_this":"2"}
+		},
+
+		{"id":"TTTGTCACGTCGTCTGTGAAATCCTAGGGCTTA", 
+		"metadata": {
+			"tag":"TTTGTCACGTCGTCTGTGAAATCCTAGGGCTTA",
+			"taxonomy":["k__Bacteria","p__Actinobacteria","c__Actinobacteria","o__Corynebacteriales","f__Corynebacteriaceae",""], 
+			"confidence":"1", 
+			"support":"4581",
+			"use":"long",
+			"taxon-level":"f",
+			"taxon-data":"f",
+			"long":"TGGGCGTAAAGAGCTCGTAGGCGGTTTGTCACGTCGTCTGTGAAATCCTAGGGCTTAACCCTGGACGTGCAGGCGATACGGGCT",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"TTTTTTAAGTGGGATGTGAAATCCCCGGGCTTA", 
+		"metadata": {
+			"tag":"TTTTTTAAGTGGGATGTGAAATCCCCGGGCTTA",
+			"taxonomy":["k__Bacteria","p__Firmicutes","c__Clostridia","o__Clostridiales","f__Clostridiaceae 1","g__Fonticella",""], 
+			"confidence":"1", 
+			"support":"4",
+			"use":"tag",
+			"taxon-level":"g",
+			"taxon-data":"g",
+			"long":"TGGGCGTAAAGGGAGCGTAGGCGGTTTTTTAAGTGGGATGTGAAATCCCCGGGCTTAACCTGGGAATTGCATTCCATACTGGGA",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"TTCGTAGGCAACGCAGACGGGGATTTCTTTCAG", 
+		"metadata": {
+			"tag":"TTCGTAGGCAACGCAGACGGGGATTTCTTTCAG",
+			"taxonomy":[""],
+			"long":"TGTGGTCAAAACGCTTGTCGTCTGCTTCGTAGGCAACGCAGACGGGGATTTCTTTCAGACCGGTGAGGACGTCGAGCTTCGTCAC",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"CTTCTTAAGTCTGATGTGAAATCTCGGGGCTCA", 
+		"metadata": {
+			"tag":"CTTCTTAAGTCTGATGTGAAATCTCGGGGCTCA",
+			"taxonomy":["k__Bacteria","p__Firmicutes","c__Bacilli","o__Bacillales","f__Bacillaceae","g__Bacillus",""], 
+			"confidence":"1", 
+			"support":"158",
+			"use":"long",
+			"taxon-level":"g",
+			"taxon-data":"g",
+			"long":"TGGGCGTAAAGCGCGCGCAGGCGGCTTCTTAAGTCTGATGTGAAATCTCGGGGCTCAACCCCGAGCGGCCATTGGAAACTGGGG",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"TTTCTGGGAGGGTGCCGATGTCGTCTTGTTGAT", 
+		"metadata": {
+			"tag":"TTTCTGGGAGGGTGCCGATGTCGTCTTGTTGAT",
+			"taxonomy":["k__Eukaryota","p__Ciliophora","c__Intramacronucleata","o__Spirotrichea","f__Hypotrichia",""], 
+			"confidence":"1", 
+			"support":"34",
+			"use":"long",
+			"taxon-level":"f",
+			"taxon-data":"g",
+			"long":"TGCAGTTAAAAAGCTCGTAGTTGGATTTCTGGGAGGGTGCCGATGTCGTCTTGTTGATTGTGCAGAGGCGCCCTTCCATCCTTCT",
+			"long_total":"2",
+			"long_this":"2"}
+		},
+
+		{"id":"TATGGGATTTAAACAAGAGGAGTTTATTCCAGA", 
+		"metadata": {
+			"tag":"TATGGGATTTAAACAAGAGGAGTTTATTCCAGA",
+			"taxonomy":[""],
+			"long":"TGGGTGTAAAATGTCTGTAGACGTTATGGGATTTAAACAAGAGGAGTTTATTCCAGAATTTGAAATTATAACTGCCACAGACTA",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"CCTTGGACCTGGACAGGCGGTCCGCCTCACGGC", 
+		"metadata": {
+			"tag":"CCTTGGACCTGGACAGGCGGTCCGCCTCACGGC",
+			"taxonomy":["k__Eukaryota","p__Basidiomycota","c__Exobasidiomycetes","o__Malasseziales","f__Incertae Sedis","g__Malassezia",""], 
+			"confidence":"1", 
+			"support":"2204",
+			"use":"long",
+			"taxon-level":"g",
+			"taxon-data":"g",
+			"long":"TGCAGTTAAAAAGCTCGTAGTTGGACCTTGGACCTGGACAGGCGGTCCGCCTCACGGCGAGTACTGTCTTGCTGGGTCTTTCCTC",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"TTTTTTAAGTGGGATGTGAAATACCTGGGCTTA", 
+		"metadata": {
+			"tag":"TTTTTTAAGTGGGATGTGAAATACCTGGGCTTA",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGGGTGCGTAGGCGGTTTTTTAAGTGGGATGTGAAATACCTGGGCTTAACTCAGGAACTGCATTCCAAACTGGAA",
+			"long_total":"2",
+			"long_this":"2"}
+		},
+
+		{"id":"GTAAATAAGTCTGTTTTAAAAGTGCGGGGCTCA", 
+		"metadata": {
+			"tag":"GTAAATAAGTCTGTTTTAAAAGTGCGGGGCTCA",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGAGCGCGTAGGCGGGTAAATAAGTCTGTTTTAAAAGTGCGGGGCTCAACCCCGTGATGGAATGGAAACTGTTTA",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"GATATTAAGTCTGGTGTAAAAGATCGGGGCTCA", 
+		"metadata": {
+			"tag":"GATATTAAGTCTGGTGTAAAAGATCGGGGCTCA",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGCGCGCGCAGGTGGGATATTAAGTCTGGTGTAAAAGATCGGGGCTCAACCCCGTTAAGCATGCGGAAACTGATA",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"CTCTTTAAGTCAGATGTGAAAACCCAGGGCTTA", 
+		"metadata": {
+			"tag":"CTCTTTAAGTCAGATGTGAAAACCCAGGGCTTA",
+			"taxonomy":["k__Bacteria","p__Firmicutes","c__Clostridia","o__Clostridiales","f__Gracilibacteraceae","g__Gracilibacter",""], 
+			"confidence":"1", 
+			"support":"2",
+			"use":"long",
+			"taxon-level":"g",
+			"taxon-data":"g",
+			"long":"TGGGCGTAAAGGGCGCGTAGGCGGCTCTTTAAGTCAGATGTGAAAACCCAGGGCTTAACTTTGGGAGTGCATTTGAAACTGAAG",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"TTATTTAAGTCTGTGTTGAAACCCCGGAGCTCA", 
+		"metadata": {
+			"tag":"TTATTTAAGTCTGTGTTGAAACCCCGGAGCTCA",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGCGCATGTAGGCGGTTATTTAAGTCTGTGTTGAAACCCCGGAGCTCAACTCCGGGCATGGCATGGAAACTGGGT",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"CGTCTTAAGTCGGATGTGAAATACCTGGGCTCA", 
+		"metadata": {
+			"tag":"CGTCTTAAGTCGGATGTGAAATACCTGGGCTCA",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGGGCGCGTAGGCGGCGTCTTAAGTCGGATGTGAAATACCTGGGCTCAACCCGGGAACTGCATCCGATACTGAGA",
+			"long_total":"2",
+			"long_this":"2"}
+		},
+
+		{"id":"TTCGGCAAGTCAGATGTGAAAGCCCGGGGCTCA", 
+		"metadata": {
+			"tag":"TTCGGCAAGTCAGATGTGAAAGCCCGGGGCTCA",
+			"taxonomy":["k__Bacteria","p__Firmicutes","c__Clostridia","o__Clostridiales","f__Lachnospiraceae",""], 
+			"confidence":"1", 
+			"support":"2",
+			"use":"long",
+			"taxon-level":"f",
+			"taxon-data":"f",
+			"long":"TGGGTGTAAAGGGAGCGTAGGTGGTTCGGCAAGTCAGATGTGAAAGCCCGGGGCTCAACCCCGGGACTGCATTTGAAACTGCCG",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"GCTTTTAAGTCCGGTGTGAAAGATCAGGGCTCA", 
+		"metadata": {
+			"tag":"GCTTTTAAGTCCGGTGTGAAAGATCAGGGCTCA",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGGGCGCGTAGGCGGGCTTTTAAGTCCGGTGTGAAAGATCAGGGCTCAACCCTGAGAGTGCATCGGAAACTGGAG",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"TTCATTAAGTTATAGGTGAAAGTTCGGGGGCTC", 
+		"metadata": {
+			"tag":"TTCATTAAGTTATAGGTGAAAGTTCGGGGGCTC",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGGGCGCGTAGGTGGTTCATTAAGTTATAGGTGAAAGTTCGGGGGCTCAACCCCGTGATTGCCTGTAATACTGGT",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"TCTTGTAAGCGTGGGGTGAAAGGCAGTGGCTTA", 
+		"metadata": {
+			"tag":"TCTTGTAAGCGTGGGGTGAAAGGCAGTGGCTTA",
+			"taxonomy":["k__Bacteria","p__Firmicutes","c__Clostridia","o__Clostridiales","f__Family XIII","g__Anaerovorax",""], 
+			"confidence":"1", 
+			"support":"16",
+			"use":"tag",
+			"taxon-level":"g",
+			"taxon-data":"g",
+			"long":"TGGGCGTAAAGAGTGCGTAGGTGGTCTTGTAAGCGTGGGGTGAAAGGCAGTGGCTTAACCATTGTAAGCCTTGCGAACTGTAAG",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"CTTCTTAAGAGGGATGTGAAATCCCGGGGCTTA", 
+		"metadata": {
+			"tag":"CTTCTTAAGAGGGATGTGAAATCCCGGGGCTTA",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGGGTGCGTAGGCGGCTTCTTAAGAGGGATGTGAAATCCCGGGGCTTAACTCCGGGGCTGCATTCCAAACTGGGA",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"TCTTTTAAGTGGGATGTGAAATCCCGGGGCTTA", 
+		"metadata": {
+			"tag":"TCTTTTAAGTGGGATGTGAAATCCCGGGGCTTA",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGGGTGCGTAGGCGGTCTTTTAAGTGGGATGTGAAATCCCGGGGCTTAACCCCGGAGCTGCATTCCAAACTGGAA",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"ATATTTAAGTGGGATGTGAAATACTCGGGCTTA", 
+		"metadata": {
+			"tag":"ATATTTAAGTGGGATGTGAAATACTCGGGCTTA",
+			"taxonomy":["k__Bacteria","p__Firmicutes","c__Clostridia","o__Clostridiales","f__Clostridiaceae 1","g__Clostridium sensu stricto 1",""], 
+			"confidence":"1", 
+			"support":"128",
+			"use":"long",
+			"taxon-level":"g",
+			"taxon-data":"g",
+			"long":"TGGGCGTAAAGGGAGCGTAGGTGGATATTTAAGTGGGATGTGAAATACTCGGGCTTAACCTGAGTGCTGCATTCCAAACTGGAT",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"ACATTTAAGTCAGATGTGAAATACCCGAGCTCA", 
+		"metadata": {
+			"tag":"ACATTTAAGTCAGATGTGAAATACCCGAGCTCA",
+			"taxonomy":[""]}
+		},
+
+		{"id":"AAGCTTAAGTCTATCTTAAAAGTGCGGTGCTCA", 
+		"metadata": {
+			"tag":"AAGCTTAAGTCTATCTTAAAAGTGCGGTGCTCA",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGCGCGCGCAGGCGGAAGCTTAAGTCTATCTTAAAAGTGCGGTGCTCAACGCCGTGATGGGATAGAAACTGGGTT",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"TTTTTTTAAGTGGGATGTGAAATCCCCGGGCTT", 
+		"metadata": {
+			"tag":"TTTTTTTAAGTGGGATGTGAAATCCCCGGGCTT",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGGGAGCGTAGGCGGTTTTTTTAAGTGGGATGTGAAATCCCCGGGCTTAACCTGGGAATTGCATTCCATACTGGG",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"GAAGCTTCGCCAATAAATTGGCGTTGCATTTCT", 
+		"metadata": {
+			"tag":"GAAGCTTCGCCAATAAATTGGCGTTGCATTTCT",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGGGAGCGTAGGCTAGAAGCTTCGCCAATAAATTGGCGTTGCATTTCTTGCGAAATGCGGTTACCAACTAAAAGT",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"ATTGTTAAGTCCGGTGTGAAAGATCAGGGCTCA", 
+		"metadata": {
+			"tag":"ATTGTTAAGTCCGGTGTGAAAGATCAGGGCTCA",
+			"taxonomy":["k__Bacteria","p__Firmicutes","c__Clostridia","o__Clostridiales","f__Peptococcaceae","g__Desulfosporosinus",""], 
+			"confidence":"1", 
+			"support":"11",
+			"use":"long",
+			"taxon-level":"g",
+			"taxon-data":"g",
+			"long":"TGGGCGTAAAGGGCGCGTAGGCGGATTGTTAAGTCCGGTGTGAAAGATCAGGGCTCAACCCTGAGAGTGCATCGGAAACTGGGA",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"CTTTAGGCAAGGCGGTCCGGTCGCCCTTTGGGT", 
+		"metadata": {
+			"tag":"CTTTAGGCAAGGCGGTCCGGTCGCCCTTTGGGT",
+			"taxonomy":[""],
+			"long":"TGCAGTTAAAAAGCTCGTAGTTGAACTTTAGGCAAGGCGGTCCGGTCGCCCTTTGGGTGTACTGGGCTCGTCACGCCTCACCTTC",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"GATATCAAGTCTATCTTAAAAGTTCGGGGCTCA", 
+		"metadata": {
+			"tag":"GATATCAAGTCTATCTTAAAAGTTCGGGGCTCA",
+			"taxonomy":["k__Bacteria","p__Firmicutes","c__Negativicutes","o__Selenomonadales","f__Veillonellaceae","g__Anaerospora",""], 
+			"confidence":"1", 
+			"support":"4",
+			"use":"long",
+			"taxon-level":"g",
+			"taxon-data":"g",
+			"long":"TGGGCGTAAAGCGCGCGCAGGCGGGATATCAAGTCTATCTTAAAAGTTCGGGGCTCAACCCCGTGATGGGATGGAAACTGGTAT",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"CTTTTTAAGTCAGATGTGAAATACCTAGGCTCA", 
+		"metadata": {
+			"tag":"CTTTTTAAGTCAGATGTGAAATACCTAGGCTCA",
+			"taxonomy":[""]}
+		},
+
+		{"id":"TAAAAGTAGTTGTAACTCACTATAACAGATTTA", 
+		"metadata": {
+			"tag":"TAAAAGTAGTTGTAACTCACTATAACAGATTTA",
+			"taxonomy":[""],
+			"long":"TGGGCGTAAAGGATGCGTAGACGGTAAAAGTAGTTGTAACTCACTATAACAGATTTATTGGGATTTTTATAAAACCTTTTTACT",
+			"long_total":"1",
+			"long_this":"1"}
+		},
+
+		{"id":"GAATGTAAGTCTGACTTAAAAGTTCGGGGCTCA", 
+		"metadata": {
+			"tag":"GAATGTAAGTCTGACTTAAAAGTTCGGGGCTCA",
+			"taxonomy":[""]}
+		}
+
+		],
+	"columns":[
+
+		{"id":"N2.v4", "metadata":null},
+		{"id":"N3.v4", "metadata":null},
+		{"id":"N4.v4", "metadata":null}
+		],
+	"matrix_type": "sparse",
+	"matrix_element_type": "int",
+	"shape": [37, 3],
+	"data": [
+		[0,0,538],
+		[0,2,9],
+		[1,1,76],
+		[1,0,16],
+		[2,2,186],
+		[2,1,52],
+		[3,1,65],
+		[4,2,450],
+		[5,2,180],
+		[5,0,100],
+		[6,2,300],
+		[6,0,6],
+		[7,0,139],
+		[8,2,164],
+		[9,0,41],
+		[10,0,36],
+		[11,2,19],
+		[11,0,10],
+		[12,2,33],
+		[13,0,21],
+		[14,0,9],
+		[14,2,13],
+		[15,2,18],
+		[16,2,17],
+		[17,2,13],
+		[18,0,8],
+		[19,2,4],
+		[19,0,5],
+		[20,2,11],
+		[21,2,11],
+		[22,0,5],
+		[23,2,7],
+		[24,0,4],
+		[25,2,6],
+		[26,2,5],
+		[27,0,2],
+		[28,0,2],
+		[29,2,3],
+		[30,2,3],
+		[31,2,3],
+		[32,2,2],
+		[33,2,2],
+		[34,2,2],
+		[35,2,2],
+		[36,2,2]
+
+		]
+}

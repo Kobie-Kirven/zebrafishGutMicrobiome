@@ -1,5 +1,5 @@
 ###########################################
-# Assessing the number of reads that 
+# Assessing the number of reads that
 # were filtered out from the host-filtering
 # step from bowtie2
 ###########################################
@@ -12,10 +12,14 @@ from collections import defaultdict
 
 
 #Path to raw reads
-path_raw = '/Volumes/UUI/reads/'
+path_raw_n = '/media/researchlab/Elements/zebrafish_reads/normal/'
+path_raw_exp = '/media/researchlab/Elements/zebrafish_reads/experimental/'
+
+normal = ['n2','n3','n4']
+experimental = ['e1','e3','e4','e5']
 
 #Path to filtered reads
-path_filtered = '/Volumes/UUI/host_filtered/'
+path_filtered = '~/Desktop/hostFilteredReads/'
 
 #Functions
 def getSeqNum(path):
@@ -34,9 +38,10 @@ def getSeqNum(path):
 	return counts
 
 
+raw_counts = []
+for noSam in normal:
+	raw_counts.append(getSeqNum(path_raw_n + noSam + "/filtered/"))
 
-#Read in the raw sequences
-raw_counts = getSeqNum(path_raw)
 
 #Read in the filtered sequences
 filtered_counts = getSeqNum(path_filtered)
@@ -45,10 +50,10 @@ filtered_counts = getSeqNum(path_filtered)
 #output the filtering statistics
 with open('filtering_stats.csv') as fn:
 	fn.write("Raw Sequences\tcounts\n")
-	for key, value in raw_counts.items():
-		fn.write(key + '\t' + str(value) + '\n')
+	for count in raw_counts:
+		for key, value in count.items():
+			fn.write(key + '\t' + str(value) + '\n')
 
 	fn.write("\t\tFiltered Sequences\tcounts\n")
 	for key, value in filtered_counts.items():
 		fn.write("\t\t" + key + '\t' + str(value) + '\n')
-
