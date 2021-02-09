@@ -1,0 +1,195 @@
+EC	Function	Normal	Experimental
+1.3.1.98	UDP-N-acetylmuramate dehydrogenase; MurB reductase; UDP-N-acetylenolpyruvoylglucosamine reductase; UDP-N-acetylglucosamine-enoylpyruvate reductase; UDP-GlcNAc-enoylpyruvate reductase; uridine diphosphoacetylpyruvoylglucosamine reductase; uridine diphospho-N-acetylglucosamine-enolpyruvate reductase; uridine-5'-diphospho-N-acetyl-2-amino-2-deoxy-3-O-lactylglucose:NADP-oxidoreductase
+	 4.392 	0.112
+5.1.3.23	UDP-2,3-diacetamido-2,3-dideoxyglucuronic acid 2-epimerase; UDP-GlcNAc3NAcA 2-epimerase; UDP-alpha-D-GlcNAc3NAcA 2-epimerase; 2,3-diacetamido-2,3-dideoxy-alpha-D-glucuronic acid 2-epimerase; WbpI; WlbD
+	 3.015 	0.0
+2.3.1.16	CO-methylating acetyl-CoA synthase
+	 0.172 	0.0
+2.1.2.2	phosphoribosylglycinamide formyltransferase; 2-amino-N-ribosylacetamide 5'-phosphate transformylase; GAR formyltransferase; GAR transformylase; glycinamide ribonucleotide transformylase; GAR TFase; 5,10-methenyltetrahydrofolate:2-amino-N-ribosylacetamide ribonucleotide transformylase
+	 0.362 	0.0
+2.1.1.74	methylenetetrahydrofolate---tRNA-(uracil54-C5)-methyltransferase [NAD(P)H-oxidizing]; folate-dependent ribothymidyl synthase; methylenetetrahydrofolate-transfer ribonucleate uracil 5-methyltransferase; 5,10-methylenetetrahydrofolate:tRNA-UPsiC (uracil-5-)-methyl-transferase; 5,10-methylenetetrahydrofolate:tRNA (uracil-5-)-methyl-transferase; TrmFO; folate/FAD-dependent tRNA T54 methyltransferase; methylenetetrahydrofolate---tRNA-(uracil54-C5)-methyltransferase (FADH2-oxidizing)
+	 0.499 	0.0
+2.7.4.6	nucleoside-diphosphate kinase; nucleoside 5'-diphosphate kinase; nucleoside diphosphate (UDP) kinase; nucleoside diphosphokinase; nucleotide phosphate kinase; UDP kinase; uridine diphosphate kinase
+	 1.264 	0.0
+2.7.7.65	diguanylate cyclase; DGC; PleD
+	 0.747 	0.028499999999999998
+2.3.1.180	beta-ketoacyl-[acyl-carrier-protein] synthase III; 3-oxoacyl:ACP synthase III; 3-ketoacyl-acyl carrier protein synthase III; KASIII; KAS III; FabH; beta-ketoacyl-acyl carrier protein synthase III; beta-ketoacyl-ACP synthase III; beta-ketoacyl (acyl carrier protein) synthase III; acetyl-CoA:malonyl-[acyl-carrier-protein] C-acyltransferase
+	 4.121 	0.0
+4.3.1.1	threonine ammonia-lyase; threonine deaminase; L-serine dehydratase; serine deaminase; L-threonine dehydratase; threonine dehydrase; L-threonine deaminase; threonine dehydratase; L-threonine hydro-lyase (deaminating); L-threonine ammonia-lyase
+	 8.083 	0.0095
+4.3.3.6	pyridoxal 5'-phosphate synthase (glutamine hydrolysing); PdxST
+	 19.557 	0.0385
+1.4.1.3	glutamate dehydrogenase [NAD(P)+]; glutamic dehydrogenase; glutamate dehydrogenase [NAD(P)+]
+	 1.608 	0.0
+1.4.1.2	glycine cleavage system; GCV
+	 4.882 	0.0
+2.7.7.75	molybdopterin adenylyltransferase; MogA; Cnx1 (ambiguous)
+	 0.2 	0.0
+2.3.1.39	[acyl-carrier-protein] S-malonyltransferase; [acyl carrier protein]malonyltransferase; FabD; malonyl coenzyme A-acyl carrier protein transacylase; malonyl transacylase; malonyl transferase; malonyl-CoA-acyl carrier protein transacylase; malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase; malonyl-CoA:ACP transacylase; malonyl-CoA:ACP-SH transacylase; malonyl-CoA:AcpM transacylase; malonyl-CoA:acyl carrier protein transacylase; malonyl-CoA:acyl-carrier-protein transacylase; malonyl-CoA/dephospho-CoA acyltransferase; MAT; MCAT; MdcH
+	 0.883 	0.0095
+2.7.7.80	molybdopterin-synthase adenylyltransferase; MoeB; adenylyltransferase and sulfurtransferase MOCS3
+	 4.652 	0.0
+4.1.1.20	diaminopimelate decarboxylase; diaminopimelic acid decarboxylase; meso-diaminopimelate decarboxylase; DAP-decarboxylase; meso-2,6-diaminoheptanedioate carboxy-lyase
+	 0.23 	0.0
+6.2.1.3	[butirosin acyl-carrier protein]---L-glutamate ligase; [BtrI acyl-carrier protein]---L-glutamate ligase; BtrJ
+	 0.166 	0.0
+2.3.1.89	tetrahydrodipicolinate N-acetyltransferase; tetrahydrodipicolinate acetylase; tetrahydrodipicolinate:acetyl-CoA acetyltransferase; acetyl-CoA:L-2,3,4,5-tetrahydrodipicolinate N2-acetyltransferase; acetyl-CoA:(S)-2,3,4,5-tetrahydropyridine-2,6-dicarboxylate 2-N-acetyltransferase
+	 3.532 	0.0
+2.4.2.14	amidophosphoribosyltransferase; phosphoribosyldiphosphate 5-amidotransferase; glutamine phosphoribosyldiphosphate amidotransferase; alpha-5-phosphoribosyl-1-pyrophosphate amidotransferase; 5'-phosphoribosylpyrophosphate amidotransferase; 5-phosphoribosyl-1-pyrophosphate amidotransferase; 5-phosphororibosyl-1-pyrophosphate amidotransferase; glutamine 5-phosphoribosylpyrophosphate amidotransferase; glutamine ribosylpyrophosphate 5-phosphate amidotransferase; phosphoribose pyrophosphate amidotransferase; phosphoribosyl pyrophosphate amidotransferase; phosphoribosylpyrophosphate glutamyl amidotransferase; 5-phosphoribosylamine:diphosphate phospho-alpha-D-ribosyltransferase (glutamate-amidating)
+	 9.818 	0.1035
+2.4.2.19	nicotinate-nucleotide diphosphorylase (carboxylating); quinolinate phosphoribosyltransferase (decarboxylating); quinolinic acid phosphoribosyltransferase; QAPRTase; NAD+ pyrophosphorylase; nicotinate mononucleotide pyrophosphorylase (carboxylating); quinolinic phosphoribosyltransferase
+	 0.233 	0.0
+1.2.4.4	3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring); 2-oxoisocaproate dehydrogenase; 2-oxoisovalerate (lipoate) dehydrogenase; 3-methyl-2-oxobutanoate dehydrogenase (lipoamide); 3-methyl-2-oxobutanoate:lipoamide oxidoreductase (decarboxylating and acceptor-2-methylpropanoylating); alpha-keto-alpha-methylvalerate dehydrogenase; alpha-ketoisocaproate dehydrogenase; alpha-ketoisocaproic dehydrogenase; alpha-ketoisocaproic-alpha-keto-alpha-methylvaleric dehydrogenase; alpha-ketoisovalerate dehydrogenase; alpha-oxoisocaproate dehydrogenase; BCKDH (ambiguous); BCOAD; branched chain keto acid dehydrogenase; branched-chain (-2-oxoacid) dehydrogenase (BCD); branched-chain 2-keto acid dehydrogenase; branched-chain 2-oxo acid dehydrogenase; branched-chain alpha-keto acid dehydrogenase; branched-chain alpha-oxo acid dehydrogenase; branched-chain keto acid dehydrogenase; branched-chain ketoacid dehydrogenase; dehydrogenase, 2-oxoisovalerate (lipoate); dehydrogenase, branched chain alpha-keto acid
+	 0.34 	0.0
+2.3.1.54	formate C-acetyltransferase; pyruvate formate-lyase; pyruvic formate-lyase; formate acetyltransferase
+	 16.257 	0.0
+1.3.1.1	2,4-dienoyl-CoA reductase [(3E)-enoyl-CoA-producing]; SPS19 (gene name); DECR1 (gene name); DECR2 (gene name); Delta2,Delta4-dienoyl-CoA reductase (ambiguous)
+	 0.3 	0.0
+2.1.2.1	UDP-4-amino-4-deoxy-L-arabinose formyltransferase; UDP-L-Ara4N formyltransferase; ArnAFT
+	 79.978 	0.1505
+5.2.1.8	peptidylprolyl isomerase; PPIase; cyclophilin [misleading, see comments]; peptide bond isomerase; peptidyl-prolyl cis-trans isomerase
+	 8.803 	0.1345
+3.6.4.13	RNA helicase; CSFV NS3 helicase; DBP2; DbpA; DDX17; DDX25; DDX3; DDX3X; DDX3Y; DDX4; DDX5; DEAD-box protein DED1; DEAD-box RNA helicase; DEAH-box protein 2; DEAH-box RNA helicase; DED1; Dex(H/D) RNA helicase; EhDEAD1; EhDEAD1 RNA helicase; eIF4A helicase; KOKV helicase; Mtr4p; nonstructural protein 3 helicase; NPH-II; RHA; RNA helicase A; RNA helicase DDX3; RNA helicase Hera; RNA-dependent ATPase; TGBp1 NTPase/helicase domain; VRH1; GRTH/DDX25
+	 66.068 	1.6245
+2.7.7.56	tRNA nucleotidyltransferase; phosphate-dependent exonuclease; RNase PH; ribonuclease PH
+	 27.655 	0.0095
+2.7.7.33	glucose-1-phosphate cytidylyltransferase; CDP glucose pyrophosphorylase; cytidine diphosphoglucose pyrophosphorylase; cytidine diphosphate glucose pyrophosphorylase; cytidine diphosphate-D-glucose pyrophosphorylase; CTP:D-glucose-1-phosphate cytidylyltransferase
+	 0.747 	0.0
+2.5.1.7	thermospermine synthase; TSPMS; ACL5; SAC51; S-adenosyl 3-(methylthio)propylamine:spermidine 3-aminopropyltransferase (thermospermine synthesizing)
+	 175.597 	0.154
+3.6.3.40	Transferred to 7.5.2.4
+	 0.204 	0.0
+2.7.7.7	tRNAHis guanylyltransferase; histidine tRNA guanylyltransferase; Thg1p (ambiguous); Thg1 (ambiguous)
+	 36.902 	0.4495
+1.8.1.9	thioredoxin-disulfide reductase; NADP-thioredoxin reductase; NADPH-thioredoxin reductase; thioredoxin reductase (NADPH); NADPH2:oxidized thioredoxin oxidoreductase
+	 9.781 	0.378
+2.1.3.9	N-acetylornithine carbamoyltransferase; acetylornithine transcarbamylase; N-acetylornithine transcarbamylase; AOTC; carbamoyl-phosphate:2-N-acetyl-L-ornithine carbamoyltransferase; AOTCase
+	 0.091 	0.0
+2.7.7.6	GDP-L-galactose/GDP-D-glucose: hexose 1-phosphate guanylyltransferase; VTC2; VTC5; GDP-L-galactose phosphorylase
+	 392.783 	3.9059999999999997
+1.8.5.3	respiratory dimethylsulfoxide reductase; dmsABC (gene names); DMSO reductase (ambiguous); dimethylsulfoxide reductase (ambiguous)
+	 46.781 	0.0
+5.1.3.13	dTDP-4-dehydrorhamnose 3,5-epimerase; dTDP-L-rhamnose synthetase; dTDP-L-rhamnose synthase; thymidine diphospho-4-ketorhamnose 3,5-epimerase; TDP-4-ketorhamnose 3,5-epimerase; dTDP-4-dehydro-6-deoxy-D-glucose 3,5-epimerase; TDP-4-keto-L-rhamnose-3,5-epimerase
+	 1.694 	0.0
+2.7.1.69	Transferred to 2.7.1.191 and 2.7.1.192 and 2.7.1.193 and 2.7.1.194 and 2.7.1.195 and 2.7.1.196 and 2.7.1.197 and 2.7.1.198 and 2.7.1.199 and 2.7.1.200 and 2.7.1.201 and 2.7.1.202 and 2.7.1.203 and 2.7.1.204 and 2.7.1.205 and 2.7.1.206 and 2.7.1.207 and 2.7.1.208
+	 8.737 	0.164
+3.6.3.39	Transferred to 7.5.2.5
+	 82.981 	2.0585
+2.7.1.39	homoserine kinase; homoserine kinase (phosphorylating); HSK
+	 0.158 	0.0
+4.3.1.15	diaminopropionate ammonia-lyase; diaminopropionatase; alpha,beta-diaminopropionate ammonia-lyase; 2,3-diaminopropionate ammonia-lyase; 2,3-diaminopropanoate ammonia-lyase; 2,3-diaminopropanoate ammonia-lyase (adding H2O; pyruvate-forming)
+	 2.989 	0.0
+2.3.1.n2	
+	 6.146 	0.0
+2.6.1.34	UDP-N-acetylbacillosamine transaminase; uridine diphospho-4-amino-2-acetamido-2,4,6-trideoxyglucose aminotransferase; UDP-4-amino-4,6-dideoxy-N-acetyl-alpha-D-glucosamine transaminase; UDP-2-acetamido-4-amino-2,4,6-trideoxyglucose transaminase; pglE (gene name); UDP-2-acetamido-4-amino-2,4,6-trideoxyglucose:2-oxoglutarate aminotransferase
+	 0.05 	0.0
+6.3.5.2	GMP synthase (glutamine-hydrolysing); GMP synthetase (glutamine-hydrolysing); guanylate synthetase (glutamine-hydrolyzing); guanosine monophosphate synthetase (glutamine-hydrolyzing); xanthosine 5'-phosphate amidotransferase; guanosine 5'-monophosphate synthetase
+	 4.537 	0.094
+2.7.7.27	glucose-1-phosphate adenylyltransferase; ADP glucose pyrophosphorylase; glucose 1-phosphate adenylyltransferase; adenosine diphosphate glucose pyrophosphorylase; adenosine diphosphoglucose pyrophosphorylase; ADP-glucose pyrophosphorylase; ADP-glucose synthase; ADP-glucose synthetase; ADPG pyrophosphorylase; ADP:alpha-D-glucose-1-phosphate adenylyltransferase
+	 4.509 	0.0095
+3.4.21.88	repressor LexA; LexA repressor
+	 2.962 	0.0
+6.3.5.3	phosphoribosylformylglycinamidine synthase; phosphoribosylformylglycinamidine synthetase; formylglycinamide ribonucleotide amidotransferase; phosphoribosylformylglycineamidine synthetase; FGAM synthetase; FGAR amidotransferase; 5'-phosphoribosylformylglycinamide:L-glutamine amido-ligase (ADP-forming); 2-N-formyl-1-N-(5-phospho-D-ribosyl)glycinamide:L-glutamine amido-ligase (ADP-forming)
+	 7.007 	0.016
+2.2.1.7	Transferred to 2.2.1.7
+	 2.556 	0.0
+3.4.21.107	peptidase Do; DegP; DegP protease; HtrA; high temperature requirement protease A; HrtA heat shock protein; protease Do; Do protease
+	 17.92 	0.0405
+2.7.7.19	polynucleotide adenylyltransferase; NTP polymerase; RNA adenylating enzyme; AMP polynucleotidylexotransferase; ATP-polynucleotide adenylyltransferase; ATP:polynucleotidylexotransferase; poly(A) polymerase; poly(A) synthetase; polyadenylate nucleotidyltransferase; polyadenylate polymerase; polyadenylate synthetase; polyadenylic acid polymerase; polyadenylic polymerase; terminal riboadenylate transferase; poly(A) hydrolase; RNA formation factors, PF1; adenosine triphosphate:ribonucleic acid adenylyltransferase
+	 0.086 	0.0
+2.7.4.22	UMP kinase; uridylate kinase; UMPK; uridine monophosphate kinase; PyrH; UMP-kinase; SmbA
+	 12.015 	0.0095
+3.4.21.116	SpoIVB peptidase; sporulation factor IV B protease
+	 0.488 	0.0
+2.3.1.179	beta-ketoacyl-[acyl-carrier-protein] synthase II; KASII; KAS II; FabF; 3-oxoacyl-acyl carrier protein synthase II; beta-ketoacyl-ACP synthase II
+	 13.517 	0.0205
+4.2.3.1	Transferred to 4.2.3.13
+	 6.74 	0.0095
+2.1.1.265	tellurite methyltransferase; TehB
+	 0.113 	0.0
+2.5.1.68	(2Z,6E)-farnesyl diphosphate synthase; (Z)-farnesyl diphosphate synthase; Z-farnesyl diphosphate synthase
+	 2.28 	0.0
+5.1.1.7	diaminopimelate epimerase
+	 0.838 	0.0
+1.1.1.133	dTDP-4-dehydrorhamnose reductase; dTDP-4-keto-L-rhamnose reductase; dTDP-4-ketorhamnose reductase; TDP-4-keto-rhamnose reductase; thymidine diphospho-4-ketorhamnose reductase; dTDP-6-deoxy-L-mannose:NADP+ 4-oxidoreductase; dTDP-6-deoxy-beta-L-mannose:NADP+ 4-oxidoreductase
+	 0.366 	0.0105
+3.6.1.19	Transferred to 3.6.1.9
+	 4.347 	0.0
+5.1.1.20	L-Ala-D/L-Glu epimerase; YkfB; YcjG; AEE; AE epimerase
+	 6.294 	0.0
+5.3.1.9	glucose-6-phosphate isomerase; phosphohexose isomerase; phosphohexomutase; oxoisomerase; hexosephosphate isomerase; phosphosaccharomutase; phosphoglucoisomerase; phosphohexoisomerase; phosphoglucose isomerase; glucose phosphate isomerase; hexose phosphate isomerase; D-glucose-6-phosphate ketol-isomerase
+	 32.2 	0.0965
+2.6.1.81	succinylornithine transaminase; succinylornithine aminotransferase; N2-succinylornithine 5-aminotransferase; AstC; SOAT; 2-N-succinyl-L-ornithine:2-oxoglutarate 5-aminotransferase
+	 2.269 	0.0
+3.1.26.3	ribonuclease III; RNase III; ribonuclease 3
+	 3.079 	0.0095
+2.7.14.1	protein arginine kinase; McsB
+	 3.011 	0.0
+2.7.1.180	FAD:protein FMN transferase; flavin transferase; apbE (gene name)
+	 0.732 	0.0
+2.4.2.3	xyloglucan 6-xylosyltransferase; uridine diphosphoxylose-xyloglucan 6alpha-xylosyltransferase; xyloglucan 6-alpha-D-xylosyltransferase; UDP-D-xylose:xyloglucan 1,6-alpha-D-xylosyltransferase
+	 0.201 	0.0
+2.5.1.101	N,N'-diacetyllegionaminate synthase; neuB (gene name); legI (gene name)
+	 0.2 	0.0
+1.1.1.22	diethyl 2-methyl-3-oxosuccinate reductase
+	 1.315 	0.0
+3.1.1.61	protein-glutamate methylesterase; chemotaxis-specific methylesterase; methyl-accepting chemotaxis protein methyl-esterase; CheB methylesterase; methylesterase CheB; protein methyl-esterase; protein carboxyl methylesterase; PME; protein methylesterase; protein-L-glutamate-5-O-methyl-ester acylhydrolase
+	 6.289 	0.016
+3.1.3.5	alkylacetylglycerophosphatase; 1-alkyl-2-lyso-sn-glycero-3-P:acetyl-CoA acetyltransferase; alkylacetylglycerophosphate phosphatase
+	 1.321 	0.0
+4.2.1.46	dTDP-glucose 4,6-dehydratase; thymidine diphosphoglucose oxidoreductase; TDP-glucose oxidoreductase; dTDP-glucose 4,6-hydro-lyase; dTDP-glucose 4,6-hydro-lyase (dTDP-4-dehydro-6-deoxy-alpha-D-glucose-forming)
+	 7.988 	0.093
+1.1.1.42	D-xylose 1-dehydrogenase (NADP+, D-xylono-1,4-lactone-forming); xacA (gene name); xdh (gene name)
+	 0.05 	0.0
+2.4.2.4	neamine phosphoribosyltransferase; btrL (gene name); neoM (gene name)
+	 0.057 	0.0
+4.1.99.1	2-iminoacetate synthase; thiH (gene name)
+	 1.472 	0.0
+3.1.3.11	fructose-bisphosphatase; hexose diphosphatase; FBPase; fructose 1,6-diphosphatase; fructose 1,6-diphosphate phosphatase; D-fructose 1,6-diphosphatase; fructose 1,6-bisphosphatase; fructose diphosphatase; fructose diphosphate phosphatase; fructose bisphosphate phosphatase; fructose 1,6-bisphosphate 1-phosphatase; fructose 1,6-bisphosphate phosphatase; hexose bisphosphatase; D-fructose-1,6-bisphosphate phosphatase
+	 11.659 	0.0
+5.1.1.3	glutamate racemase
+	 25.336 	0.281
+3.6.1.3	thymidine-triphosphatase; thymidine triphosphate nucleotidohydrolase; dTTPase; deoxythymidine-5'-triphosphatase
+	 21.804 	0.0205
+4.3.2.1	imidazole glycerol-phosphate synthase; IGP synthase; hisFH (gene names); HIS7 (gene name)
+	 34.936 	0.0
+4.1.1.61	4-hydroxybenzoate decarboxylase; p-hydroxybenzoate decarboxylase; 4-hydroxybenzoate carboxy-lyase
+	 2.498 	0.0
+2.6.1.85	Transferred to 2.6.1.85
+	 0.402 	0.0
+3.2.1.52	beta-N-acetylhexosaminidase; hexosaminidase; beta-acetylaminodeoxyhexosidase; N-acetyl-beta-D-hexosaminidase; N-acetyl-beta-hexosaminidase; beta-hexosaminidase; beta-acetylhexosaminidinase; beta-D-N-acetylhexosaminidase; beta-N-acetyl-D-hexosaminidase; beta-N-acetylglucosaminidase; hexosaminidase A; N-acetylhexosaminidase; beta-D-hexosaminidase
+	 0.932 	0.0
+2.1.1.199	16S rRNA (cytosine1402-N4)-methyltransferase; RsmH; MraW
+	 23.548 	0.016
+2.6.1.42	branched-chain-amino-acid transaminase; transaminase B; branched-chain amino acid aminotransferase; branched-chain amino acid-glutamate transaminase; branched-chain aminotransferase; L-branched chain amino acid aminotransferase; glutamate-branched-chain amino acid transaminase
+	 2.527 	0.0
+2.6.1.98	UDP-2-acetamido-2-deoxy-ribo-hexuluronate aminotransferase; WbpE; WlbC
+	 0.316 	0.0
+2.6.1.2	diamine transaminase; amine transaminase; amine-ketoacid transaminase; diamine aminotransferase; diamine-ketoglutaric transaminase
+	 1.789 	0.0
+3.2.1.86	6-phospho-beta-glucosidase; phospho-beta-glucosidase A; phospho-beta-glucosidase; phosphocellobiase; 6-phospho-beta-D-glucosyl-(1,4)-D-glucose glucohydrolase
+	 28.29 	0.921
+2.3.1.234	Transferred to 2.3.1.234
+	 93.939 	0.0
+2.6.1.102	GDP-perosamine synthase; RfbE; GDP-4-keto-6-deoxy-D-mannose-4-aminotransferase; GDP-perosamine synthetase; PerA; GDP-4-amino-4,6-dideoxy-alpha-D-mannose:2-oxoglutarate aminotransferase
+	 6.605 	0.0
+3.5.99.6	Transferred to 3.5.99.6
+	 0.067 	0.0
+2.4.1.21	vomilenine glucosyltransferase; UDPG:vomilenine 21-beta-D-glucosyltransferase
+	 0.158 	0.0
+2.3.1.222	phosphate propanoyltransferase; PduL
+	 2.898 	0.0
+2.6.1.83	LL-diaminopimelate aminotransferase; LL-diaminopimelate transaminase; LL-DAP aminotransferase; LL-DAP-AT
+	 1.781 	0.0
+2.4.2.29	tRNA-guanosine34 preQ1 transglycosylase; guanine insertion enzyme (ambiguous); tRNA transglycosylase (ambiguous); Q-insertase (ambiguous); transfer ribonucleate glycosyltransferase (ambiguous); tRNA guanine34 transglycosidase (ambiguous); TGT (ambiguous); transfer ribonucleic acid guanine34 transglycosylase (ambiguous)
+	 24.978 	0.8565
+4.1.2.4	L-allo-threonine aldolase
+	 6.724 	0.016
+4.2.1.10	Transferred to 4.2.1.104
+	 3.647 	0.0
+2.7.9.2	pyruvate, water dikinase; phosphoenolpyruvate synthase; pyruvate-water dikinase (phosphorylating); PEP synthetase; phosphoenolpyruvate synthase; phoephoenolpyruvate synthetase; phosphoenolpyruvic synthase; phosphopyruvate synthetase
+	 15.419 	0.0105
+1.15.1.1	superoxide dismutase; superoxidase dismutase; copper-zinc superoxide dismutase; Cu-Zn superoxide dismutase; ferrisuperoxide dismutase; superoxide dismutase I; superoxide dismutase II; SOD; Cu,Zn-SOD; Mn-SOD; Fe-SOD; SODF; SODS; SOD-1; SOD-2; SOD-3; SOD-4; hemocuprein; erythrocuprein; cytocuprein; cuprein; hepatocuprein
+	 1.867 	0.0
+2.6.1.39	2-aminoadipate transaminase; alpha-aminoadipate aminotransferase; 2-aminoadipate aminotransferase; 2-aminoadipic aminotransferase; glutamic-ketoadipic transaminase; glutamate-alpha-ketoadipate transaminase
+	 0.287 	0.0

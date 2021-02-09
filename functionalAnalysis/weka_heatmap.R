@@ -1,5 +1,5 @@
 
-setwd("~/Documents/Github/zebrafishGutMicrobiome/")
+setwd("~/Documents/Github/zebrafishGutMicrobiome/functionalAnalysis/")
 
 #Import RColorBrewer so that we can change the heatmap colors
 library("RColorBrewer")
@@ -8,7 +8,7 @@ library(grid)
 library(circlize)
 
 #Input the data from the EC's identified by weka
-inputData <- read.csv("mifaser_heatmap_data.csv")
+inputData <- read.csv("mifaser_output.csv")
 
 #Turn the data table into a matrix
 m <- as.matrix(inputData[, -1])
