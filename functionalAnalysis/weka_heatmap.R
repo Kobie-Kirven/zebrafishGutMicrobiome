@@ -8,8 +8,8 @@ library(grid)
 library(circlize)
 
 #Input the data from the EC's identified by weka
-inputData <- read.csv("mifaser_output.csv")
-
+inputData <- read.csv("mifaser_heatmap_data.csv")
+inputData <- inputData[1:15,]
 #Turn the data table into a matrix
 m <- as.matrix(inputData[, -1])
 
@@ -20,11 +20,10 @@ rownames(m) <- inputData$X
 #Create the heatmap
 #heatmap(m, Colv = NA, Rowv = NA, col=brewer.pal(9,"Blues"))
 
-col_fun = colorRamp2(c(0, 500, 2000), c("#FFFFFF","#A1DDFF", "#60C6FF"))
-col_fun(seq(-50, 10))
+col_fun = colorRamp2(c(0, max(m)), c("#FFFFFF","#A1DDFF"))
 
 ha = HeatmapAnnotation(df = data.frame(Group = c(rep("Normal Iron", 3), rep("High Iron", 4))),
-                       col = list(type = c("Normal Iron" =  "Gray", "High Iron" = "#D8D8D8")) )
+                       col = list(type = c("Normal Iron" =  "Black", "High Iron" = "Black")) )
 
 hmp = Heatmap(m, name = "Counts", col = col_fun, cluster_rows = FALSE,show_column_dend = FALSE, cluster_columns = FALSE, 
         row_names_side = "left", top_annotation = ha)
@@ -35,3 +34,4 @@ decorate_heatmap_body("Counts", {
   x = i/ncol(m)
   grid.lines(c(x, x), c(0, 1), gp = gpar(lwd = 2, lty = 2))
 })
+
