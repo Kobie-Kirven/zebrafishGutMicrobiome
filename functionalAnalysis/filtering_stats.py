@@ -19,7 +19,7 @@ normal = ['n2','n3','n4']
 experimental = ['e1','e3','e4','e5']
 
 #Path to filtered reads
-path_filtered = '~/Desktop/hostFilteredReads/'
+path_filtered = '/home/researchlab/Desktop/hostFilteredReads/'
 
 #Functions
 def getSeqNum(path):
@@ -41,6 +41,8 @@ def getSeqNum(path):
 raw_counts = []
 for noSam in normal:
 	raw_counts.append(getSeqNum(path_raw_n + noSam + "/filtered/"))
+for noExp in experimental:
+	raw_counts.append(getSeqNum(path_raw_n + noExp + "/filtered/"))
 
 
 #Read in the filtered sequences
@@ -48,12 +50,12 @@ filtered_counts = getSeqNum(path_filtered)
 
 
 #output the filtering statistics
-with open('filtering_stats.csv') as fn:
+with open('filtering_stats.csv','w') as fn:
 	fn.write("Raw Sequences\tcounts\n")
 	for count in raw_counts:
 		for key, value in count.items():
 			fn.write(key + '\t' + str(value) + '\n')
 
-	fn.write("\t\tFiltered Sequences\tcounts\n")
+	fn.write("\tFiltered Sequences\tcounts\n")
 	for key, value in filtered_counts.items():
 		fn.write("\t\t" + key + '\t' + str(value) + '\n')

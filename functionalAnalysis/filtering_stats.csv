@@ -1,0 +1,22 @@
+Raw Sequences	counts
+N2_R1_filtered.fastq.gz	18039017
+N2_R2_filtered.fastq.gz	18039017
+N3_R1_filtered.fastq.gz	31258176
+N3_R2_filtered.fastq.gz	31258176
+N4_R1_filtered.fastq.gz	22227741
+N4_R2_filtered.fastq.gz	22227741
+		Filtered Sequences	counts
+		N3_host_removed_R2.fastq.gz	30046141
+		N2_host_removed_R2.fastq.gz	17410980
+		E3_host_removed_R1.fastq.gz	26488924
+		E1_host_removed_R2.fastq.gz	25980703
+		E5_host_removed_R1.fastq.gz	24136224
+		E4_host_removed_R2.fastq.gz	15438591
+		E3_host_removed_R2.fastq.gz	26488924
+		E5_host_removed_R2.fastq.gz	24136224
+		E1_host_removed_R1.fastq.gz	25980703
+		N4_host_removed_R2.fastq.gz	22083442
+		N2_host_removed_R1.fastq.gz	17410980
+		N4_host_removed_R1.fastq.gz	22083442
+		N3_host_removed_R1.fastq.gz	30046141
+		E4_host_removed_R1.fastq.gz	15438591
