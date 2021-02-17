@@ -1,0 +1,98 @@
+PROGRAM START TIME: 02-15-2021 20:06:27
+BRACKEN SUMMARY (Kraken report: kraken_classification/N2.kraken)
+    >>> Threshold: 10 
+    >>> Number of species in sample: 4285 
+	  >> Number of species with reads > threshold: 2424 
+	  >> Number of species with reads < threshold: 1861 
+    >>> Total reads in sample: 17410980
+	  >> Total reads kept at species level (reads > threshold): 3698215
+	  >> Total reads discarded (species reads < threshold): 5948
+	  >> Reads distributed: 4131881
+	  >> Reads not distributed (eg. no species above threshold): 10469
+	  >> Unclassified reads: 13268630
+BRACKEN OUTPUT PRODUCED: bracken_outputs/N2.bracken
+PROGRAM END TIME: 02-15-2021 20:06:28
+PROGRAM START TIME: 02-15-2021 20:06:28
+BRACKEN SUMMARY (Kraken report: kraken_classification/N3.kraken)
+    >>> Threshold: 10 
+    >>> Number of species in sample: 2323 
+	  >> Number of species with reads > threshold: 810 
+	  >> Number of species with reads < threshold: 1513 
+    >>> Total reads in sample: 30046141
+	  >> Total reads kept at species level (reads > threshold): 8229007
+	  >> Total reads discarded (species reads < threshold): 4010
+	  >> Reads distributed: 9736427
+	  >> Reads not distributed (eg. no species above threshold): 12709
+	  >> Unclassified reads: 20297005
+BRACKEN OUTPUT PRODUCED: bracken_outputs/N3.bracken
+PROGRAM END TIME: 02-15-2021 20:06:28
+PROGRAM START TIME: 02-15-2021 20:06:28
+BRACKEN SUMMARY (Kraken report: kraken_classification/N4.kraken)
+    >>> Threshold: 10 
+    >>> Number of species in sample: 4766 
+	  >> Number of species with reads > threshold: 3041 
+	  >> Number of species with reads < threshold: 1725 
+    >>> Total reads in sample: 22083442
+	  >> Total reads kept at species level (reads > threshold): 2765798
+	  >> Total reads discarded (species reads < threshold): 5385
+	  >> Reads distributed: 3478935
+	  >> Reads not distributed (eg. no species above threshold): 10869
+	  >> Unclassified reads: 18593638
+BRACKEN OUTPUT PRODUCED: bracken_outputs/N4.bracken
+PROGRAM END TIME: 02-15-2021 20:06:28
+PROGRAM START TIME: 02-15-2021 20:06:28
+BRACKEN SUMMARY (Kraken report: kraken_classification/E1.kraken)
+    >>> Threshold: 10 
+    >>> Number of species in sample: 2398 
+	  >> Number of species with reads > threshold: 764 
+	  >> Number of species with reads < threshold: 1634 
+    >>> Total reads in sample: 25980703
+	  >> Total reads kept at species level (reads > threshold): 4091094
+	  >> Total reads discarded (species reads < threshold): 4249
+	  >> Reads distributed: 4988595
+	  >> Reads not distributed (eg. no species above threshold): 7748
+	  >> Unclassified reads: 20984360
+BRACKEN OUTPUT PRODUCED: bracken_outputs/E1.bracken
+PROGRAM END TIME: 02-15-2021 20:06:28
+PROGRAM START TIME: 02-15-2021 20:06:28
+BRACKEN SUMMARY (Kraken report: kraken_classification/E3.kraken)
+    >>> Threshold: 10 
+    >>> Number of species in sample: 2583 
+	  >> Number of species with reads > threshold: 969 
+	  >> Number of species with reads < threshold: 1614 
+    >>> Total reads in sample: 26488924
+	  >> Total reads kept at species level (reads > threshold): 5854514
+	  >> Total reads discarded (species reads < threshold): 4056
+	  >> Reads distributed: 6691927
+	  >> Reads not distributed (eg. no species above threshold): 13662
+	  >> Unclassified reads: 19783335
+BRACKEN OUTPUT PRODUCED: bracken_outputs/E3.bracken
+PROGRAM END TIME: 02-15-2021 20:06:28
+PROGRAM START TIME: 02-15-2021 20:06:28
+BRACKEN SUMMARY (Kraken report: kraken_classification/E4.kraken)
+    >>> Threshold: 10 
+    >>> Number of species in sample: 1418 
+	  >> Number of species with reads > threshold: 326 
+	  >> Number of species with reads < threshold: 1092 
+    >>> Total reads in sample: 15438591
+	  >> Total reads kept at species level (reads > threshold): 146037
+	  >> Total reads discarded (species reads < threshold): 2453
+	  >> Reads distributed: 163828
+	  >> Reads not distributed (eg. no species above threshold): 3862
+	  >> Unclassified reads: 15270901
+BRACKEN OUTPUT PRODUCED: bracken_outputs/E4.bracken
+PROGRAM END TIME: 02-15-2021 20:06:28
+PROGRAM START TIME: 02-15-2021 20:06:28
+BRACKEN SUMMARY (Kraken report: kraken_classification/E5.kraken)
+    >>> Threshold: 10 
+    >>> Number of species in sample: 3026 
+	  >> Number of species with reads > threshold: 1182 
+	  >> Number of species with reads < threshold: 1844 
+    >>> Total reads in sample: 24136224
+	  >> Total reads kept at species level (reads > threshold): 4178882
+	  >> Total reads discarded (species reads < threshold): 5119
+	  >> Reads distributed: 5252110
+	  >> Reads not distributed (eg. no species above threshold): 71962
+	  >> Unclassified reads: 18812152
+BRACKEN OUTPUT PRODUCED: bracken_outputs/E5.bracken
+PROGRAM END TIME: 02-15-2021 20:06:28
