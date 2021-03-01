@@ -1,0 +1,98 @@
+EC	Class	Pathway / Description 	Normal	Experimental
+1.3.1.98	Oxidoreductases	Amino sugar and nucleotide sugar metabolism, Peptidoglycan biosynthesis, Metabolic pathways	 4.392	0.112
+5.1.3.23	Isomerases	Amino sugar and nucleotide sugar metabolism, O-Antigen nucleotide sugar biosynthesis, Metabolic pathways	 3.015	0.0
+2.3.1.16	Transferases	Fatty acid elongation, Fatty acid degradation, Valine, leucine and isoleucine degradation, Geraniol degradation, Benzoate degradation, alpha-Linolenic acid metabolism, Ethylbenzene degradation, Biosynthesis of unsaturated fatty acids, Metabolic pathways, Biosynthesis of secondary metabolites, Microbial metabolism in diverse environments	 0.172	0.0
+2.1.2.2	Transferases	Purine metabolism, One carbon pool by folate, Metabolic pathways, Biosynthesis of secondary metabolites	 0.362	0.0
+2.1.1.74	Transferases	  methylenetetrahydrofolate---tRNA-(uracil54-C5)-methyltransferase [NAD(P)H-oxidizing]	 0.499	0.0
+2.7.4.6	Transferases	Purine metabolism, Pyrimidine metabolism, Drug metabolism - other enzymes, Metabolic pathways, Biosynthesis of secondary metabolites	 1.264	0.0
+2.7.7.65	Transferases	  diguanylate cyclase	 0.747	0.028499999999999998
+2.3.1.180	Transferases	Fatty acid biosynthesis, Metabolic pathways	 4.121	0.0
+4.3.1.1	Lyases	Alanine, aspartate and glutamate metabolism, Metabolic pathways	 8.083	0.0095
+4.3.3.6	Lyases	Vitamin B6 metabolism, Metabolic pathways	 19.557	0.0385
+1.4.1.3	Oxidoreductases	Arginine biosynthesis, Alanine, aspartate and glutamate metabolism, D-Glutamine and D-glutamate metabolism, Nitrogen metabolism, Metabolic pathways, Microbial metabolism in diverse environments	 1.608	0.0
+1.4.1.2	Oxidoreductases	Arginine biosynthesis, Alanine, aspartate and glutamate metabolism, Taurine and hypotaurine metabolism, Nitrogen metabolism, Metabolic pathways, Microbial metabolism in diverse environments	 4.882	0.0
+2.7.7.75	Transferases	Folate biosynthesis, Metabolic pathways	 0.2	0.0
+2.3.1.39	Transferases	Fatty acid biosynthesis, Metabolic pathways	 0.883	0.0095
+2.7.7.80	Transferases	  molybdopterin-synthase adenylyltransferase	 4.652	0.0
+4.1.1.20	Lyases	Lysine biosynthesis, Metabolic pathways, Biosynthesis of secondary metabolites, Microbial metabolism in diverse environments,  K01586, bifunctional diaminopimelate decarboxylase / aspartate kinase	 0.23	0.0
+6.2.1.3	Ligases	Fatty acid biosynthesis, Fatty acid degradation, Metabolic pathways	 0.166	0.0
+2.3.1.89	Transferases	Lysine biosynthesis, Metabolic pathways, Biosynthesis of secondary metabolites	 3.532	0.0
+2.4.2.14	Transferases	Purine metabolism, Alanine, aspartate and glutamate metabolism, Metabolic pathways, Biosynthesis of secondary metabolites	 9.818	0.1035
+2.4.2.19	Transferases	Nicotinate and nicotinamide metabolism, Metabolic pathways	 0.233	0.0
+1.2.4.4	Oxidoreductases	Valine, leucine and isoleucine degradation, Propanoate metabolism, Metabolic pathways, Biosynthesis of secondary metabolites	 0.34	0.0
+2.3.1.54	Transferases	Pyruvate metabolism, Propanoate metabolism, Butanoate metabolism, Metabolic pathways, Microbial metabolism in diverse environments	 16.257	0.0
+1.3.1.1	Oxidoreductases	Pyrimidine metabolism, beta-Alanine metabolism, Pantothenate and CoA biosynthesis, Metabolic pathways	 0.3	0.0
+2.1.2.1	Transferases	Glycine, serine and threonine metabolism, Cyanoamino acid metabolism, Glyoxylate and dicarboxylate metabolism, One carbon pool by folate, Methane metabolism, Metabolic pathways, Biosynthesis of secondary metabolites, Microbial metabolism in diverse environments	 79.978	0.1505
+5.2.1.8	Isomerases	  peptidylprolyl isomerase	 8.803	0.1345
+3.6.4.13	Hydrolases	  RNA helicase	 66.068	1.6245
+2.7.7.56	Transferases	  tRNA nucleotidyltransferase	 27.655	0.0095
+2.7.7.33	Transferases	Starch and sucrose metabolism, Amino sugar and nucleotide sugar metabolism, O-Antigen nucleotide sugar biosynthesis, Metabolic pathways	 0.747	0.0
+2.5.1.7	Transferases	Amino sugar and nucleotide sugar metabolism, Peptidoglycan biosynthesis, Metabolic pathways	 175.597	0.154
+3.6.3.40	Hydrolases	  Transferred to 7.5.2.4	 0.204	0.0
+2.7.7.7	Transferases	  DNA-directed DNA polymerase	 36.902	0.4495
+1.8.1.9	Oxidoreductases	Selenocompound metabolism	 9.781	0.378
+2.1.3.9	Transferases	Arginine biosynthesis, Metabolic pathways	 0.091	0.0
+2.7.7.6	Transferases	  DNA-directed RNA polymerase	 392.783	3.9059999999999997
+1.8.5.3	Oxidoreductases	Sulfur metabolism, Metabolic pathways	 46.781	0.0
+5.1.3.13	Isomerases	Streptomycin biosynthesis, Polyketide sugar unit biosynthesis, O-Antigen nucleotide sugar biosynthesis, Metabolic pathways, Biosynthesis of secondary metabolites	 1.694	0.0
+2.7.1.69	Transferases	  Transferred to 2.7.1.191 and 2.7.1.192 and 2.7.1.193 and 2.7.1.194 and 2.7.1.195 and 2.7.1.196 and 2.7.1.197 and 2.7.1.198 and 2.7.1.199 and 2.7.1.200 and 2.7.1.201 and 2.7.1.202 and 2.7.1.203 and 2.7.1.204 and 2.7.1.205 and 2.7.1.206 and 2.7.1.207 and 2.7.1.208	 8.737	0.164
+3.6.3.39	Hydrolases	  Transferred to 7.5.2.5	 82.981	2.0585
+2.7.1.39	Transferases	Glycine, serine and threonine metabolism, Metabolic pathways, Biosynthesis of secondary metabolites, Microbial metabolism in diverse environments	 0.158	0.0
+4.3.1.15	Lyases	  diaminopropionate ammonia-lyase	 2.989	0.0
+2.3.1.n2	None	None	 6.146	0.0
+2.6.1.34	Transferases	Amino sugar and nucleotide sugar metabolism, O-Antigen nucleotide sugar biosynthesis, Metabolic pathways	 0.05	0.0
+6.3.5.2	Ligases	Purine metabolism, Drug metabolism - other enzymes, Metabolic pathways	 4.537	0.094
+2.7.7.27	Transferases	Starch and sucrose metabolism, Amino sugar and nucleotide sugar metabolism, Metabolic pathways, Biosynthesis of secondary metabolites	 4.509	0.0095
+3.4.21.88	Hydrolases	  repressor LexA	 2.962	0.0
+6.3.5.3	Ligases	Purine metabolism, Metabolic pathways, Biosynthesis of secondary metabolites	 7.007	0.016
+2.2.1.7	Transferases	Thiamine metabolism, Terpenoid backbone biosynthesis, Metabolic pathways, Biosynthesis of secondary metabolites	 2.556	0.0
+3.4.21.107	Hydrolases	  peptidase Do	 17.92	0.0405
+2.7.7.19	Transferases	  polynucleotide adenylyltransferase	 0.086	0.0
+2.7.4.22	Transferases	Pyrimidine metabolism, Metabolic pathways	 12.015	0.0095
+3.4.21.116	Hydrolases	  SpoIVB peptidase	 0.488	0.0
+2.3.1.179	Transferases	Fatty acid biosynthesis, Biotin metabolism, Metabolic pathways	 13.517	0.0205
+4.2.3.1	Lyases	Glycine, serine and threonine metabolism, Vitamin B6 metabolism, Metabolic pathways, Biosynthesis of secondary metabolites, Microbial metabolism in diverse environments	 6.74	0.0095
+2.1.1.265	Transferases	  tellurite methyltransferase	 0.113	0.0
+2.5.1.68	Transferases	Terpenoid backbone biosynthesis, Biosynthesis of secondary metabolites	 2.28	0.0
+5.1.1.7	Isomerases	Lysine biosynthesis, Metabolic pathways, Biosynthesis of secondary metabolites, Microbial metabolism in diverse environments	 0.838	0.0
+1.1.1.133	Oxidoreductases	Streptomycin biosynthesis, Polyketide sugar unit biosynthesis, O-Antigen nucleotide sugar biosynthesis, Metabolic pathways, Biosynthesis of secondary metabolites	 0.366	0.0105
+3.6.1.19	Hydrolases	  Transferred to 3.6.1.9	 4.347	0.0
+5.1.1.20	Isomerases	  L-Ala-D/L-Glu epimerase	 6.294	0.0
+5.3.1.9	Isomerases	Glycolysis / Gluconeogenesis, Pentose phosphate pathway, Starch and sucrose metabolism, Amino sugar and nucleotide sugar metabolism, Metabolic pathways, Biosynthesis of secondary metabolites, Microbial metabolism in diverse environments	 32.2	0.0965
+2.6.1.81	Transferases	Arginine and proline metabolism, Metabolic pathways	 2.269	0.0
+3.1.26.3	Hydrolases	  ribonuclease III	 3.079	0.0095
+2.7.14.1	Transferases	  protein arginine kinase	 3.011	0.0
+2.7.1.180	Transferases	  FAD:protein FMN transferase	 0.732	0.0
+2.4.2.3	Transferases	Pyrimidine metabolism, Drug metabolism - other enzymes, Metabolic pathways	 0.201	0.0
+2.5.1.101	Transferases	Amino sugar and nucleotide sugar metabolism, Metabolic pathways	 0.2	0.0
+1.1.1.22	Oxidoreductases	Pentose and glucuronate interconversions, Ascorbate and aldarate metabolism, Amino sugar and nucleotide sugar metabolism, O-Antigen nucleotide sugar biosynthesis, Metabolic pathways	 1.315	0.0
+3.1.1.61	Hydrolases	  protein-glutamate methylesterase	 6.289	0.016
+3.1.3.5	Hydrolases	Purine metabolism, Pyrimidine metabolism, Nicotinate and nicotinamide metabolism, Metabolic pathways, Biosynthesis of secondary metabolites	 1.321	0.0
+4.2.1.46	Lyases	Streptomycin biosynthesis, Polyketide sugar unit biosynthesis, Acarbose and validamycin biosynthesis, O-Antigen nucleotide sugar biosynthesis, Biosynthesis of vancomycin group antibiotics, Metabolic pathways, Biosynthesis of secondary metabolites	 7.988	0.093
+1.1.1.42	Oxidoreductases	Citrate cycle (TCA cycle), Glutathione metabolism, Carbon fixation pathways in prokaryotes, Metabolic pathways, Biosynthesis of secondary metabolites, Microbial metabolism in diverse environments	 0.05	0.0
+2.4.2.4	Transferases	Pyrimidine metabolism, Drug metabolism - other enzymes, Metabolic pathways	 0.057	0.0
+4.1.99.1	Lyases	Tryptophan metabolism, Metabolic pathways	 1.472	0.0
+3.1.3.11	Hydrolases	Glycolysis / Gluconeogenesis, Pentose phosphate pathway, Fructose and mannose metabolism, Methane metabolism, Carbon fixation in photosynthetic organisms, Metabolic pathways, Biosynthesis of secondary metabolites, Microbial metabolism in diverse environments	 11.659	0.0
+5.1.1.3	Isomerases	D-Glutamine and D-glutamate metabolism, Metabolic pathways	 25.336	0.281
+3.6.1.3	Hydrolases	  Deleted entry	 21.804	0.0205
+4.3.2.1	Lyases	Arginine biosynthesis, Alanine, aspartate and glutamate metabolism, Metabolic pathways, Biosynthesis of secondary metabolites	 34.936	0.0
+4.1.1.61	Lyases	Aminobenzoate degradation, Microbial metabolism in diverse environments,  K01612, 4-hydroxybenzoate decarboxylase subunit C, vanillate/4-hydroxybenzoate decarboxylase subunit D	 2.498	0.0
+2.6.1.85	Transferases	Folate biosynthesis	 0.402	0.0
+3.2.1.52	Hydrolases	Other glycan degradation, Various types of N-glycan biosynthesis, Amino sugar and nucleotide sugar metabolism, Glycosaminoglycan degradation, Glycosphingolipid biosynthesis - globo and isoglobo series, Glycosphingolipid biosynthesis - ganglio series, Metabolic pathways	 0.932	0.0
+2.1.1.199	Transferases	  16S rRNA (cytosine1402-N4)-methyltransferase	 23.548	0.016
+2.6.1.42	Transferases	Cysteine and methionine metabolism, Valine, leucine and isoleucine degradation, Valine, leucine and isoleucine biosynthesis, Pantothenate and CoA biosynthesis, Glucosinolate biosynthesis, Metabolic pathways, Biosynthesis of secondary metabolites	 2.527	0.0
+2.6.1.98	Transferases	Amino sugar and nucleotide sugar metabolism, O-Antigen nucleotide sugar biosynthesis, Metabolic pathways	 0.316	0.0
+2.6.1.2	Transferases	Arginine biosynthesis, Alanine, aspartate and glutamate metabolism, Carbon fixation in photosynthetic organisms, Metabolic pathways, Microbial metabolism in diverse environments	 1.789	0.0
+3.2.1.86	Hydrolases	Glycolysis / Gluconeogenesis, Starch and sucrose metabolism	 28.29	0.921
+2.3.1.234	Transferases	  N6-L-threonylcarbamoyladenine synthase	 93.939	0.0
+2.6.1.102	Transferases	Amino sugar and nucleotide sugar metabolism, O-Antigen nucleotide sugar biosynthesis, Metabolic pathways	 6.605	0.0
+3.5.99.6	Hydrolases	Amino sugar and nucleotide sugar metabolism, Metabolic pathways	 0.067	0.0
+2.4.1.21	Transferases	Starch and sucrose metabolism, Metabolic pathways, Biosynthesis of secondary metabolites	 0.158	0.0
+2.3.1.222	Transferases	Propanoate metabolism	 2.898	0.0
+2.6.1.83	Transferases	Lysine biosynthesis, Metabolic pathways, Biosynthesis of secondary metabolites	 1.781	0.0
+2.4.2.29	Transferases	  tRNA-guanosine34 preQ1 transglycosylase	 24.978	0.8565
+4.1.2.4	Lyases	Pentose phosphate pathway, Metabolic pathways	 6.724	0.016
+4.2.1.10	Lyases	Phenylalanine, tyrosine and tryptophan biosynthesis, Metabolic pathways, Biosynthesis of secondary metabolites	 3.647	0.0
+2.7.9.2	Transferases	Glycolysis / Gluconeogenesis, Pyruvate metabolism, Methane metabolism, Carbon fixation pathways in prokaryotes, Metabolic pathways, Biosynthesis of secondary metabolites, Microbial metabolism in diverse environments	 15.419	0.0105
+1.15.1.1	Oxidoreductases	  superoxide dismutase	 1.867	0.0
+2.6.1.39	Transferases	Lysine biosynthesis, Lysine degradation, Metabolic pathways, Biosynthesis of secondary metabolites	 0.287	0.0
