@@ -1,37 +1,24 @@
 
-setwd("~/Documents/Github/zebrafishGutMicrobiome/functionalAnalysis/")
+setwd("/Volumes/UUI/zebrafishGutMicrobiome/functionalAnalysis/")
 
 #Import RColorBrewer so that we can change the heatmap colors
-library("RColorBrewer")
-library(ComplexHeatmap)
-library(grid)
-library(circlize)
+library(reshape2)
+library(ggplot2)
 
 #Input the data from the EC's identified by weka
 inputData <- read.csv("mifaser_heatmap_data.csv")
 inputData <- inputData[1:15,]
-#Turn the data table into a matrix
-m <- as.matrix(inputData[, -1])
 
-#Add in the EC's as rownames
-rownames(m) <- inputData$X
+test <- melt(inputData, id = c("X"), measure.vars = c("N2", "N3", "N4", "E1", "E3", "E4","E5"))
 
+head(test)
 
-#Create the heatmap
-#heatmap(m, Colv = NA, Rowv = NA, col=brewer.pal(9,"Blues"))
+p <- ggplot(test, aes(x=variable, y=X, fill=value))
+p + geom_tile() +  
+  scale_fill_gradient(low="white", high="blue") + 
+  theme_classic() + geom_vline(xintercept=c(3.5), 
+                               linetype="dashed", color = "grey") +
+  theme(axis.ticks = element_blank()) + xlab("Sample") + 
+  ylab("Most Informative E.C.s")
 
-col_fun = colorRamp2(c(0, max(m)), c("#FFFFFF","#A1DDFF"))
-
-ha = HeatmapAnnotation(df = data.frame(Group = c(rep("Normal Iron", 3), rep("High Iron", 4))),
-                       col = list(type = c("Normal Iron" =  "Black", "High Iron" = "Black")) )
-
-hmp = Heatmap(m, name = "Counts", col = col_fun, cluster_rows = FALSE,show_column_dend = FALSE, cluster_columns = FALSE, 
-        row_names_side = "left", top_annotation = ha)
-
-hmp 
-decorate_heatmap_body("Counts", {
-  i = which(colnames(m) == "N4")
-  x = i/ncol(m)
-  grid.lines(c(x, x), c(0, 1), gp = gpar(lwd = 2, lty = 2))
-})
-
+ggsave("weka_heatmap.png", width = 10, height = 8, unit = "cm", dpi=300)

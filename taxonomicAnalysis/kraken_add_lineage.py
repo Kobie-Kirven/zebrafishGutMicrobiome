@@ -1,26 +1,39 @@
 ######################################################################
-# Add the lineage information to the Kraken/Braken output file
+# Add the lineage information to the Kraken/Braken output file. 
 #
 #
 # Author - Kobie Kirven
+# Date: 2 - 17 - 2021
 #
 ######################################################################
 
+#Imports
 import os, sys, argparse, subprocess
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "-i", "--input", dest="in_file", help="Input Kraken/Braken report file"
+        "-i",
+        "--input",
+        dest="in_file",
+        help="Input Kraken/Braken report file",
     )
     parser.add_argument(
-        "-o", "--output", dest="out", help="Output file with lineages added"
+        "-o",
+        "--output",
+        dest="out",
+        help="Output file with lineages added",
     )
     parser.add_argument(
-        "-db", "--database", dest="database", help="Path to NCBI Lineage database"
+        "-db",
+        "--database",
+        dest="database",
+        help="Path to NCBI Lineage database",
     )
-    parser.add_argument("-t", "--type", dest="type", help="Output type")
+    parser.add_argument(
+        "-t", "--type", dest="type", help="Output type"
+    )
 
     args = parser.parse_args()
 
@@ -38,11 +51,15 @@ def main():
 
     def getLineages():
         os.system(
-            "taxonkit --data-dir " + str(args.database) + " lineage ids.txt > out.txt"
+            "taxonkit --data-dir "
+            + str(args.database)
+            + " lineage ids.txt > out.txt"
         )
         with open("out.txt") as fn:
             lines = fn.readlines()
-            lineages = [line.strip("\n").split("\t")[1] for line in lines]
+            lineages = [
+                line.strip("\n").split("\t")[1] for line in lines
+            ]
 
         return lineages
 
@@ -65,8 +82,18 @@ def main():
 
                 for y in range(len(inLineages)):
                     inLineages[y] = "_".join(inLineages[y].split(" "))
-                    lineList.append(";" + classLevels[y] + "_" + inLineages[y].title())
-                fn.write("".join(lineList) + "\t" + "\t".join(lines[i][3:]) + "\n")
+                    lineList.append(
+                        ";"
+                        + classLevels[y]
+                        + "_"
+                        + inLineages[y].title()
+                    )
+                fn.write(
+                    "".join(lineList)
+                    + "\t"
+                    + "\t".join(lines[i][3:])
+                    + "\n"
+                )
 
     def outputForOTU(lineages):
         with open(args.in_file) as fn:
@@ -90,17 +117,25 @@ def main():
                         linList.append("N/A")
                 linList = linList[1:8]
 
-                fn.write("\t".join(linList) + "\t" + "\t".join(lines[i][3:]) + "\n")
+                fn.write(
+                    "\t".join(linList)
+                    + "\t"
+                    + "\t".join(lines[i][3:])
+                    + "\n"
+                )
 
     ids = extractNCBIids(args.in_file)
     lineage = getLineages()
-    
-    if args.type == "l":
-    	outputWithLineage(lineage)
-   
-    elif args.type == "otu":
-    	outputForOTU(lineage)
 
+    if args.type == "l":
+        outputWithLineage(lineage)
+
+    elif args.type == "otu":
+        outputForOTU(lineage)
+
+    else:
+        print("No output style specified: Default linear")
+        outputWithLineage(lineage)
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,251 @@
+seq(1:99, by=2)
+seq(1,99, by=2)
+rep(1:3,3)
+rep(rep(1,3),3, by=1)
+rep(rep(1,3),3, by=2)
+rep(1,3)
+c(rep(1,3), rep(2,3), rep(3,3))
+seq(1,216, length=6)
+27+8
+seq(1:6)
+(seq(1:6))^3
+whales.tx
+whales
+x = c(2,3,4)
+x[-1]
+whales.tx
+whales.tx <- c(75, 336, 299, 499)
+whales.tx > 200
+!whales.tx == 5
+shuttle <- c(0,1,0,NA,0,0)
+mean(shuttle)
+mean(shuttle, na.rm=TRUE)
+#In order to do the mean function, you have to remove the missing data
+bill <- c(49, 33, 39, 37, 46, 30, 48, 32, 49, 35, 30, 48)
+sum(bill)
+range(bill)
+sum(bill > 40)
+(sum(bill > 40) / length(bill))*100
+length(bill)
+12 /5
+#Decade of salaries in basebaball
+mlbSalary <- c(0.57, 0.89, 1.08, 1.12, 1.18, 1.17, 1.38, 1.44, 1.72)
+diff(mlbSalary)
+diff(mlbSalary) / mlbSalary[-9] * 100
+diff(mlbSalary) / (len(mlbSalary)-1) *100
+diff(mlbSalary) / (lenght(mlbSalary)-1) *100
+diff(mlbSalary) / (length(mlbSalary)-1) *100
+cars
+cars$dist
+mtcars
+names(mtcars)
+mtcars$cyl
+library(MASS)
+install.packages("MASS")
+library(MASS)
+faithful
+names(faithful)
+faithful$eruptions
+faithful$eruptions[1]
+eruptions
+faithful$eruptions[1]
+faithful$eruptions
+attatch(faithful)
+attach(faithful)
+eruptions
+detatch(faithful)
+detach(faithful)
+eruptions
+x = scan()
+dump("x", "test.txt")
+x = 1:20
+x
+dim(x) = c(4, 5)
+x
+x[3.2]
+x[3,2]
+x[,2]
+x[,5]
+x[3,]
+x = matrix(1:20, nrow=4, byrow=T)
+x
+x <- 1:20
+x
+dim(x) <- c(4,5)
+x
+x <- matrix(1:20, nrow = 4, byrow=T)
+x
+x <- matrix(1:12, nrow=3, byrow=T)
+rownames(x) <- c("Rod Corew", "Joe Morgan", "Steve Sax" )
+colnames(x) <- c("GP", "AB","R","H")
+x
+y <- matrix(1:9, nrow=3, byrow=T)
+rownames(y) = month.name[2:4]
+colnames(y) <- LETTERS[1:3]
+y
+#Binding Columns and Rows
+x <- cbind(A=1:4,B=5:8,C=(9:12))
+x
+y <- rbind(A=1:4,B=5:8,C=9:12)
+y
+#"Factors have levels in R"
+pain <- c(0,3,2,1,2)
+#Associated with an ordinal variable
+fpain <- factor(pain, levels=0:3)
+levels(fpain) <- c("nor","mild","mod","sev")
+fpain
+as.numeric(fpain)
+#R starts indexes at 1
+levels(fpain)
+whales.tx
+whales.fl
+whales.fl <- c(45, 55, 56, 87)
+w <- data.frame(whales.tx, whales.fl)
+w
+w$whales.tx
+w$whales.fl
+w[3,2]
+whales.tx[whales.tx > 75 & whales.tx <=120]
+#Subsetting
+w.small <- subset(w, w$whales.fl < 100)
+w.small
+#Transforming datasets
+w.log <- transform(w, log.whales.fl = log(whales.fl))
+w.log
+whales.tx
+whales.tx <- c(74, 122, 235, 111, 292, 111, 211, 133, 156, 79)
+whales.fl <- c(89, 254, 306, 292, 274, 233, 294, 204, 204, 90)
+w <- data.frame(whales.tx, whales.fl)
+w
+whales.tx[whales.tx > 75 & whales.tx <=120]
+w.small <- subset(w, w$whales.fl < 100)
+w.log <- transform(w, log.whales.fl = log(whales.fl))
+w.log
+w.small
+#####Flow contrrl
+#Conditional Execution
+#    - Do something if this is true
+#Looping
+y=1234567
+x <- y /z
+x <- y / 2
+while(abs(x*x-y)>1e-10){}
+x <- (x+y/x)/2
+x <- (x+y/x)/2#
+}
+while(abs(x*x-y)>1e-10){}
+while(abs(x*x-1>1e-10)){
+x <- (x+y/x)/2
+}
+x
+while(abs(x*x-1>1e-10)){
+x <- (x+y/x)/2
+}
+x
+y<-12345
+x <- y / 2
+while(abs(x*x-1>1e-10)){
+x <- (x+y/x)/2
+}
+while(abs(x*x-1)>1e-10)){
+while(abs(x*x-1)>1e-10){
+x <- (x+y/x)/2
+}
+y<-12345
+x <- y / 2
+while(abs(x*x-1)>1e-10){
+x <- (x+y/x)/2
+}
+y<-12345
+x <- y / 2
+while(abs(x*x-y)>1e-10){
+x <- (x+y/x)/2
+}
+x
+x^2
+y <- 12345
+x <- y / 2
+repeat {
+x <- (x+y/x)/2
+if (abs(x*x-y)<1e-10)break
+}
+x
+x^2
+y <- 144
+x <- y / 2
+repeat {
+x <- (x+y/x)/2
+if (abs(x*x-y)<1e-10)break
+}
+x
+###For loops
+x <- seq(0,1,0.5)
+plot(x, x, ylab="y", type="l")
+for (i in 2:10){
+lines(x, x^i)
+}
+LSAT<- c(576, 635, 558, 578, 666, 580, 555, 661, 651, 605, 653, 575, 545, 572, 594)
+GPA <- c(3.39, 3.30, 2.81, 3.03, 3.44, 3.07, 3.00, 3.43, 3.36, 3.13, 3.12, 2.74, 2.76, 2.88, 2.96)
+LSAT
+GPA
+median(LSAT)
+mean(LSAT)
+?quantile()
+quantile(LSAT, .25)
+quantiles <- quantile(LSAT, .25)
+hist(LSAT, prob = T)
+quantiles <- quantile(LSAT, c(0.25, 0.75)
+)
+hist(LSAT, prob = T)
+abline(v=quantiles[1])
+?rnorm
+?abline
+hist(LSAT, prob = T)
+abline(v=quantiles[1])
+abline(v=quantiles[2])
+summary(LSAT)
+LSAT=c(576, 635, 558, 578, 666, 580, 555, 661, 651, 605, 653, 575, 545, 572, 594)
+lsatLen <- 0
+for (i in LSAT){
+lsatLen <- lsatLen + 1
+}
+lsatLen
+lsatSum <- 0
+for (i in 1:lsatLen){
+lsatSum <- lsatSum + LSAT[i]
+}
+lsatSum
+lsatAvg <- lsatSum / lsatLen
+lsatAvg
+flag <- TRUE
+while (flag == TRUE){
+otherFlag <- TRUE
+for (i in 1:(lsatLen-1)){
+if (LSAT[i+1] < LSAT[i]){
+temp <- LSAT[i]
+LSAT[i] <- LSAT[i + 1]
+LSAT[i + 1] <- temp
+otherFlag <- FALSE
+}
+if (i== (lsatLen - 1) && otherFlag == TRUE){
+flag <- FALSE
+}
+LSAT
+median <- LSAT[(lsatLen + 1) /2]
+median
+summary(LSAT)
+LSAT=c(576, 635, 558, 578, 666, 580, 555, 661, 651, 605, 653, 575, 545, 572, 594)
+mean(LSAT)
+length(LSAT)
+sum(LSAT)
+mean(LSAT)
+median(LSAT)
+lower.1 <- (lsatLen + 1)/ 4
+lower.2 <- ((lsatLen + 1)/4)+ 1
+quart.25 <- (LSAT[lower.1]+ LSAT[lower.2])/2
+quart.25
+quantile(LSAT, 0.25)
+clear
+clear()
+source("/Volumes/UUI/zebrafishGutMicrobiome/taxonomicAnalysis/metacodr/metacodr_analaysis.R")
+obj
