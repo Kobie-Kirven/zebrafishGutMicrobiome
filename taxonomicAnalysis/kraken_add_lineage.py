@@ -53,18 +53,20 @@ def main():
         os.system(
             "taxonkit --data-dir "
             + str(args.database)
-            + " lineage ids.txt > out.txt"
+            + " lineage ids.txt > out1.txt"
         )
+        os.system("taxonkit --data-dir "
+            + str(args.database) + " reformat -P -F out1.txt > out.txt")
         with open("out.txt") as fn:
             lines = fn.readlines()
-            lineages = [
-                line.strip("\n").split("\t")[1] for line in lines
-            ]
-
+            lineages = []
+            for i in range(len(lines)):
+                line = lines[i].strip('\n').split("\t")
+                lineages.append(line[2])
         return lineages
 
         # Remove intermediate files
-        os.system("rm out.txt")
+        os.system("rm out1.txt")
         os.system("rm ids.txt")
 
     def outputWithLineage(lineages):
@@ -76,20 +78,9 @@ def main():
             fn.write("lineage\t" + "\t".join(lines[0][3:]) + "\n")
             lines = lines[1:]
 
-            for i in range(len(lines)):
-                inLineages = lineages[i].split(";")[1:8]
-                lineList = ["r_Root"]
-
-                for y in range(len(inLineages)):
-                    inLineages[y] = "_".join(inLineages[y].split(" "))
-                    lineList.append(
-                        ";"
-                        + classLevels[y]
-                        + "_"
-                        + inLineages[y].title()
-                    )
+            for i in range(len(lines)): 
                 fn.write(
-                    "".join(lineList)
+                    lineages[i]
                     + "\t"
                     + "\t".join(lines[i][3:])
                     + "\n"
